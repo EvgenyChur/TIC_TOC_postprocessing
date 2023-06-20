@@ -15,7 +15,7 @@ Since 2002, the Jena Experiment has been looking at the importance of biodiversi
 
 **Figure 2:** Plot plan of **"Jena Experiment fields"**
 
-<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/RESULTS/C3 C4 plants_page-0001.jpg"></p>
+<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/C3_C4_plants.jpg"></p>
 
 **Figure 3:** C3 / C4 plants** on the experimental sites "MPI fields" and "Jena Experiment fields"
 
