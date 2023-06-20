@@ -1,14 +1,17 @@
 # TICTOC data project
 
 ## Project description:
-**MPI fields (MA samples)**
-The **C3** (*Phacelia tanacetifolia* Benth., *Helianthus annuus* L., *Triticum spec*. L.) -**C4** (*Eragrostis curvula* Wolf, *Zea mays* L., *Amaranthus spec*. L. and *Sorghum spec*. Moench) vegetation change experiment at the Max Planck Institute for Biogeochemistry in Jena, Germany was established in 2002. It includes 48 samples of soil water from different depth (10, 20 and 30 cm) from the eight plots of 24 m2  that were set up directly next to each other to avoid environmental biases, such as climate. (Mellado-Vázquez, P.G., Lange, M. & Gleixner, G. Soil microbial communities and their carbon assimilation are affected by soil properties and season but not by plants differing in their photosynthetic pathways (C3 vs. C4). Biogeochemistry 142, 175–187 (2019). https://doi.org/10.1007/s10533-018-0528-9).
+
+### MPI fields (MA samples):
+
+The **C3** (*Phacelia tanacetifolia* Benth., *Helianthus annuus* L., *Triticum spec*. L.) -**C4** (*Eragrostis curvula* Wolf, *Zea mays* L., *Amaranthus spec*. L. and *Sorghum spec*. Moench) vegetation change experiment at the Max Planck Institute for Biogeochemistry in Jena, Germany was established in 2002. It includes 48 samples of soil water from different depth (10, 20 and 30 cm) from the eight plots of 24 m2  that were set up directly next to each other to avoid environmental biases, such as climate. ([Mellado-Vázquez et al., 2019][manus]).
 
 <p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/MPI%20fields.jpg"></p>
 
 **Figure 1:** Plot plan of **"MPI fields"**
 
-**Jena Experiment fields (MH and MH-r samples)**
+### Jena Experiment fields (MH and MH-r samples):
+
 Since 2002, the Jena Experiment has been looking at the importance of biodiversity for the ecosystem, making it one of the longest-running biodiversity experiments in the world. Soil water sampling takes place on the experimental plots on Wiesenstraße in northern Jena. It includes 212 samples from different depth (10, 20 and 30 cm) from the 90 plots of grassland plant communities. 13 of these samples are from two plots with **C4** plants (*Eragrostis curvula* Wolf, *Zea mays* L., *Amaranthus spec*. L. and *Sorghum spec*. Moench). C4 plots are classified as reference plots. Reference plots include also 4 more plots: 2 arable fields, and 2 extensively used meadows with in total 14 samples of soil water.
 
 <p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/Jena_exp_image.jpg"></p>
@@ -57,9 +60,9 @@ git pull
 However, your updates will be replaced by the updated version. More information about git command you can find in Google!
 
 
-***P.S.1: You have to change these name {direction_of_your_updates} and {your commit name} to yours***
+***P.S.1:*** You have to change these name {direction_of_your_updates} and {your commit name} to yours
 
-***P.S.2: Don't forget that before you start working with TICTOC processing scripts on MPI-BGC SLURM cluster or your local computer, you have to plug SLURM modules, install and set your enviroments for miniconda (anaconda), set git parameters (user.name and user.email), set a valid public key for GitLab. More information about you can find in MPI-BGC discourse. The main useful links are presented in section Additional materials***
+***P.S.2:*** Don't forget that before you start working with TICTOC processing scripts on MPI-BGC SLURM cluster or your local computer, you have to plug SLURM modules, install and set your enviroments for miniconda (anaconda), set git parameters (user.name and user.email), set a valid public key for GitLab. More information about you can find in MPI-BGC discourse. The main useful links are presented in section Additional materials
 
 ## Additional materials:
 There are a lot of useful information in MPI-BGC discourse platform for communication. For example:
@@ -78,6 +81,8 @@ There are a lot of useful information in MPI-BGC discourse platform for communic
     - [Using Github on MPI-BGC cluster][5];
 
 Don't forget to get access to MPI-BGC Discourse.
+
+[manus]: https://doi.org/10.1007/s10533-018-0528-9
 
 [2]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 [3]: https://bgc.discourse.mpg.de/t/git-usage-tutorial/40

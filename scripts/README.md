@@ -57,23 +57,23 @@ At this step, you can also get sevaral problems (problems 3, 4 and 5 from sectio
 | MH-R       | ![][fig3a]| ![][fig3b]               | ![][fig3c]             | ![][fig3d]                      | ![][fig3f]                     |
 
 
-[fig1a]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_mh/fig4mh_in_range_273_364.png
-[fig1b]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_mh/fig4mh_boxplot_toc.png
-[fig1c]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_mh/fig4mh_boxplot_toc2.png
-[fig1d]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_mh/fig4mh_correlation_1.png
-[fig1f]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_mh/fig4mh_correlation_2.png
+[fig1a]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_mh/fig4mh_in_range_273_364.png
+[fig1b]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_mh/fig4mh_boxplot_toc.png
+[fig1c]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_mh/fig4mh_boxplot_toc2.png
+[fig1d]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_mh/fig4mh_correlation_1.png
+[fig1f]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_mh/fig4mh_correlation_2.png
 
-[fig2a]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_ma/fig4ma_in_range_0_57.png
-[fig2b]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_ma/fig4ma_boxplot_toc.png
-[fig2c]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_ma/fig4ma_boxplot_toc2.png
-[fig2d]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_ma/fig4ma_correlation_1.png
-[fig2f]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_ma/fig4ma_correlation_2.png
+[fig2a]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_ma/fig4ma_in_range_0_57.png
+[fig2b]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_ma/fig4ma_boxplot_toc.png
+[fig2c]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_ma/fig4ma_boxplot_toc2.png
+[fig2d]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_ma/fig4ma_correlation_1.png
+[fig2f]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_ma/fig4ma_correlation_2.png
 
-[fig3a]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_mh-r/fig4mh-r_in_range_24_48.png
-[fig3b]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_mh-r/fig4mh-r_boxplot_toc.png
-[fig3c]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_mh-r/fig4mh-r_boxplot_toc2.png
-[fig3d]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_mh-r/fig4mh-r_correlation_1.png
-[fig3f]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/tree/main/DATA/FIGURES_mh-r/fig4mh-r_correlation_2.png
+[fig3a]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_mh-r/fig4mh-r_in_range_24_48.png
+[fig3b]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_mh-r/fig4mh-r_boxplot_toc.png
+[fig3c]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_mh-r/fig4mh-r_boxplot_toc2.png
+[fig3d]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_mh-r/fig4mh-r_correlation_1.png
+[fig3f]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/DATA/FIGURES_mh-r/fig4mh-r_correlation_2.png
 
 **Figure 1.** Examples of output results calculated based `tic_toc.py` script
 
