@@ -104,7 +104,7 @@ where: `script` is your running script
     - In field `Kommentar` you should have additional meteinformation. For ***MH*** experiments it has to be something like that `B1A01/20` or `B1A01/20; Verdünung 1:5 eingerechnet`. It is really important for script `alina_task2.py` due to, this script uses this column as a source of information about measurements point.
     - In field `Ergebnis` you should have values, not text (`Probe alle`). If you have text value in this column, this line will be automatically ignore;
 
-<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/RESULTS/data_requirements.jpg"></p>
+<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/data_requirements.jpg"></p>
 
 **Figure 2.** Example of correct input data for TIC TOC data processing
 
@@ -119,8 +119,8 @@ where: `script` is your running script
 |:------------:|:------------:|
 | ![][fig5a]   | ![][fig5b]   |
 
-[fig5a]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/RESULTS/error_xlrd.jpg
-[fig5b]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/RESULTS/error_no_module.jpg
+[fig5a]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/error_xlrd.jpg
+[fig5b]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/error_no_module.jpg
 
 **Figure 3.** Example of problem with: A - missing optional dependency, B - module
 
@@ -143,8 +143,8 @@ if you working on you local computer
 |:------------:|:------------:|
 | ![][fig6a]   | ![][fig6b]   |
 
-[fig6a]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/RESULTS/error_header.jpg
-[fig6b]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/RESULTS/error_probenjahr.jpg
+[fig6a]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/error_header.jpg
+[fig6b]: https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/error_probenjahr.jpg
 
 **Figure 4.** Problem with input data header: A - during quality control test, B - main mode
 
@@ -152,7 +152,7 @@ if you working on you local computer
 
 3. ***Space between lines:***
 
-<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/RESULTS/error_NA.jpg"></p>
+<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/error_NA.jpg"></p>
 
 **Figure 5.** Example of error when we have space between lines
 
@@ -160,7 +160,7 @@ if you working on you local computer
 
 4. ***No data for replace:***
 
-<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/RESULTS/error_replace.jpg"></p>
+<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/error_replace.jpg"></p>
 
 **Figure 6.** Example of error when we have no data for replace
 
@@ -168,7 +168,7 @@ if you working on you local computer
 
 5. ***Putty problem:***
 
-<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/RESULTS/error_putty.jpg"></p>
+<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/error_putty.jpg"></p>
 
 **Figure 7.** Example of the problem with openning output figure
 
@@ -176,7 +176,7 @@ You can ignore this problem or install and run `Xming`. Actual for Windows users
 
 6. ***File not found:***
 
-<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/RESULTS/error_no_data.jpg"></p>
+<p style="text-align: center"><img src="https://github.com/EvgenyChur/TIC_TOC_postprocessing/blob/main/RESULTS/error_no_data.jpg"></p>
 
 **Figure 8.** File not found
 
