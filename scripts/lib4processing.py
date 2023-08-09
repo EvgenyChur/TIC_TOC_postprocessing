@@ -15,18 +15,24 @@ Version    Date       Name
            Initial release
     1.2    07.06.2023 Evgenii Churiulin, MPI-BGC
            Code refactoring
+    1.3    09.08.2023 Evgenii Churiulin, MPI-BGC
+           Add new function for data processing
 """
 
 # =============================     Import modules     =======================
 # -- Standard:
+import os
 import sys
 import numpy as np
 import pandas as pd
+from re import match
 from typing import Optional
 import warnings
 warnings.filterwarnings("ignore")
-# -- Personal:
+# 1.2: Personal modules
+sys.path.append(os.path.join(os.getcwd(), '..'))
 import lib4sys_support
+
 # =============================   Personal functions   =======================
 
 # --  metainfo_control ->  Fast quality control test. Headers in files should be the same!
@@ -264,6 +270,7 @@ def get_exp_data(
     return df_exp
 # ------------------------------------------------------------------------------
 
+
 # get_data4akanksha -> Preprocessing of excel data (task for Akanksha)
 def get_data4akanksha(
         # Input variables:
@@ -366,4 +373,42 @@ def get_data4akanksha(
     # -- Add new column to dataframe:
     df_final = pd.concat([df_final, exp_name], axis = 1)
     return df_final
+
+
+def get_complex_plot_data(
+        # Input variables:
+        df:pd.DataFrame,                    # Input data from meteostation
+        uset4data:dict,                     # User parameters for dataset
+        # Output variables:
+    ) -> tuple[pd.DataFrame,               # T2m data
+               pd.DataFrame,               # Precipitation data
+               pd.DataFrame,               # Soil moisture data
+    ]:
+    # -- Local variables:
+    t1 = uset4data.get('tstart')
+    t2 = uset4data.get('tstop')
+    depth = uset4data.get('levels')
+    t2m_col = uset4data.get('t2m_col')
+    prec_col = uset4data.get('prec_col')
+    sm_cols  = uset4data.get('sm_cols')
+
+    # -- Reset time intex and take columns only with soil moisture:
+    df['time'] = pd.to_datetime(df['time']).dt.date
+    # -- Get data:
+    df_temp = df.set_index('time')[t2m_col][t1:t2]
+    df_prec = df.set_index('time')[prec_col][t1:t2]
+    df_soil = df.set_index('time')[sm_cols][t1:t2].T
+    df_soil['depth'] = depth
+    df_soil = df_soil.reset_index(drop = True).set_index('depth')
+    return df_temp, df_prec, df_soil
+
+
+def str_filter(
+        # Input variables:
+        lst4filter:list[str],
+        flt_word:str,
+        # Output variables:
+    ) -> list[pd.Series]:
+    """Select stations by flt_word"""
+    return list(filter(lambda v: match(flt_word, v), lst4filter))
 # =============================    End of program   ==========================
